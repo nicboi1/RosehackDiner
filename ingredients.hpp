@@ -83,15 +83,15 @@ bool ingredients(customer* payingC, order* custOrder, vector<string> iList, vect
 }
 
 void restock(vector<string> iList, vector<int> & iQuantity){
-    cout << "Time to stock up on Ingredients! You can stock up on 3" << endl;
+    cout << "Time to stock up on Ingredients! You can stock up on 2" << endl;
     cout << "1. chicken 2. steak 3. mushroom 4.fish 5.potato 6. bread 7.soup base 8.cheese 9.sauce 10.lettuce 11. dressing" << endl;
     cout << "Enter a number 1-11 to fully restock" << endl;
     int choice;
     int anything;
-    int choiceleft = 3;
+    int choiceleft = 2;
     while (choiceleft > 0){
       cin >> choice;
-      vector<int> range{1,2,3,4,5,6,7,8,9,10,11};
+      
       
       while((choice>11 || choice<1)){
         if (cin.fail()){
