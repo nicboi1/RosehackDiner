@@ -5,7 +5,7 @@
 # 1/16/20
 
 # What is the Game #
-A text based game where the User serves food the customer order, if they have to correct amount of ingredients. Every 5 customers there is a chance to restock certain items. The user starts out with 3 stars, and loses a star when they cannot provide a meal ordered. The Game is over when there are no stars. The score is the number of people that are correctly served.
+A text based game where the User serves food the customer order, if they have to correct amount of ingredients. Every 5 customers there is a chance to restock 2 ingredients. The user starts out with 3 stars, and loses a star when they cannot provide a meal ordered. The Game is over when there are no stars. The score is the number of people that are correctly served.
 
 # Code 
 
