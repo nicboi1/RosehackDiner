@@ -1,6 +1,6 @@
 # RosehackDiner
 
-# Authors: Nicole Boie https://github.com/nicboi1, Aarav Sane
+# Authors: Nicole Boie https://github.com/nicboi1, Aarav Sane https://github.com/skyguy-netizen
 
 # 1/16/20
 
