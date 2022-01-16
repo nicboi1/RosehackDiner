@@ -110,7 +110,7 @@ void restock(vector<string> iList, vector<int> & iQuantity){
 
 string three(5,' ');
 void iqList(vector<string> iList, vector<int>  iQuantity){
-    cout << "Ingredient \t Quantity" < <endl;
+    cout << "Ingredient \t Quantity" <<endl;
     for (int i = 0;i < iList.size(); i++){
       string four(iList.at(6).size() - iList.at(i).size(), ' ');
       cout << iList.at(i) << three << four << iQuantity.at(i) << endl;
