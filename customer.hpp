@@ -19,10 +19,11 @@ class customer{
      // order* custOrder;
       string name="";
       
-      //an order pointer points at an order
+      
   public:
   
       customer(){
+        //random generation of names
         nameStr={"Rose","Rosalie", "Ro", "Rosario", "Roman", "Rosa", "Rowan", "Robert", "Ronald", "Roald", "Rod"};
         int rando=rand() %nameStr.size();
         name= nameStr.at(rando);
