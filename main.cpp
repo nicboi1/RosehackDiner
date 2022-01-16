@@ -26,17 +26,19 @@ int main() {
     int stars=3;
     int round=0;
     int review=0;
+    //ingredient list
     vector <string> iList={"chicken","steak","mushroom", "fish", "potato", "bread", "soup base", "cheese", "sauce", "lettuce", "dressing"};
-    
+    //quantity of ingredients list
     vector<int> iQuantity(11,3);
-    
+    //print out combined list
     iqList(iList,iQuantity);
 
     while(stars>0){
+        //new customer and order
         customer* payingC= new customer();
         order* custOrder= new order();
-        
         bool fed=ingredients(payingC, custOrder, iList,iQuantity);
+        //Determines if the customer is fed based on the ingredient quantity
         if(fed==true){
           cout<<"You have the ingredients to cook a "<<custOrder->getOrder()<<"!"<<endl;
           cin>>u;
