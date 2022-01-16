@@ -16,7 +16,7 @@ class order{
     
       
       order(){
-    
+          //2 vectors main ing and special order combine at random to make an order
           basicOrders = {"salad", "soup", "pizza", "burger" };
           specialOrders = {"chicken", "steak", "mushroom", "fish", "potato"};
          
