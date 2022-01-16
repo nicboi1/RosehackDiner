@@ -19,7 +19,7 @@ int main() {
     srand(time(0));
     intro();
     string u;
-    int star = 3;
+    int stars = 3;
     int round = 0;
     int review = 0;
     vector <string> iList={"chicken","steak","mushroom", "fish", "potato", "bread", "soup base", "cheese", "sauce", "lettuce", "dressing"};
@@ -65,7 +65,7 @@ int main() {
           restock (iList, iQuantity);
         }
         }
-    cout << "Game over" < <endl;
+    cout << "Game over" <<endl;
     cout << "You ended up with a score of "<< review << endl;
     return 0;
     
