@@ -16,7 +16,7 @@ class order{
     
       
       order(){
-          //2 vectors main ing and special order combine at random to make an order
+    
           basicOrders = {"salad", "soup", "pizza", "burger" };
           specialOrders = {"chicken", "steak", "mushroom", "fish", "potato"};
          
@@ -25,7 +25,7 @@ class order{
           
           orderName = (specialOrders.at(first)) + " " + (basicOrders.at(sec));
            
-          cout<<"I'm feeling hungry today. I would like a"<< getOrder() << endl;
+          cout<<"I'm feeling hungry today. I would like a "<< getOrder() << endl;
       }
      
       
