@@ -41,7 +41,7 @@ void intro(){
     cin >> userAns;
     cout << endl;
   }
-  cout << "Press any key when you are finished reading each part, unless given other instructions" << endl << endl;
+  cout << "Press any character key when you are finished reading each part, unless given other instructions" << endl << endl;
   cin >> userAns;
   cout << endl;
   cout << "You will be making food from our Rosehack Diner menu for our customers today!"<< endl 
