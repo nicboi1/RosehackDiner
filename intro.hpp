@@ -45,7 +45,7 @@ void intro(){
   cout<<"Press any key when you are finished reading each part, unless given other instructions"<<endl<<endl;
   cin>>userAns;
   cout<<endl;
-  cout<<"You will be making food from our Rosehack Diner menu for our customers today!"<<endl<<"But watchout if a customer orders something from the menu that we don't have the ingredients for, we lose a star!"<<endl<<"Right now we have 3 stars, but we'll have to close if we get to 0."<<endl<<"After ever 5th customer you can restock any 3 ingredients, so pay attention to what you have."<<endl<<"Good luck and get cookin!!"<<endl<<endl;
+  cout<<"You will be making food from our Rosehack Diner menu for our customers today!"<<endl<<"But watchout if a customer orders something from the menu that we don't have the ingredients for, we lose a star!"<<endl<<"Right now we have 3 stars, but we'll have to close if we get to 0."<<endl<<"After ever 5th customer you can restock any 2 ingredients, so pay attention to what you have."<<endl<<"Good luck and get cookin!!"<<endl<<endl;
   cin>>userAns;
   cout<<endl;
   cout<<"Before you start here is the  menu"<<endl<<endl;; 
